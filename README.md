@@ -1,7 +1,7 @@
 # TROLLEYNINJA
 
 Use Trolleyninja to take photos of vagrant trolleys and report to their indigent parent motherships
-  -  (WW,Aldi,Coles)
+  -  ([Woolworths](https://twitter.com/woolworths), [Aldi](https://twitter.com/ALDIAustralia), [Coles](https://twitter.com/Coles))
   - See HTML in the right
   - Magic
 
