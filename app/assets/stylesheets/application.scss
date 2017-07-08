@@ -1,4 +1,10 @@
- /*
- Custom bootstrap variables must be set or imported *before* bootstrap.
- */
- @import "bootstrap";
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+// Settings
+// @import "settings/grid";
+@import "settings/colours";
+
+@import "components/components";
