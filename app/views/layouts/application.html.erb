@@ -10,23 +10,8 @@
   </head>
 
   <body>
-    <div class="container">
-      <header>
-        <h2>Trolley Ninja</h2>
-        <%= image_tag "trolley_ninja_200x124.png" %>
-      </header>
 
-      <nav>
-        <a href="#"><i class="fa fa-camera" aria-hidden="true"></i> </a>
-        <a href="#"><i class="fa fa-map-o" aria-hidden="true"></i> </a>
-        <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> </a>
-        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a>
-      </nav>
+    <%= yield %>
 
-      <main>
-        <%= yield %>
-      </main>
-
-    </div>
   </body>
 </html>
