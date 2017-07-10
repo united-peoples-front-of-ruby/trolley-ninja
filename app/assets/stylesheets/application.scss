@@ -4,7 +4,9 @@
 @import "font-awesome";
 
 // Settings
-// @import "settings/grid";
+@import "settings/resets";
+@import "settings/base";
 @import "settings/colours";
+@import "settings/layout";
 
 @import "components/components";

@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+nav {
+  background-color: $paprika;
+  display: inline-flex;
+  flex-grow: 1;
+  font-size: 1.8em;
+  justify-content: space-around;
+  margin: 0;
+  order: 10;
+  width: 100%;
+  max-height: 1.5em;
+
+  a  {
+
+    :link {
+      background-color: $folly;
+    }
+    :active {
+      background-color: $folly;
+      height: inherit;
+    }
+  }
+
+  i {
+    color: white;
+  }
+}
+
+header {
+  align-content: center;
+  flex-grow: 1;
+  justify-content: space-around;
+  order: 2;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  img {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+main {
+  display: flex;
+  flex-grow: 2;
+  min-height: 120px;
+  order: 5;
+}
