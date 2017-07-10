@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Trolleyninja</title>
+    <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <h2>Trolley Ninja</h2>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fa fa-camera" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-map-o" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-pencil" aria-hidden="true"></i> </a></li>
+        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <%= yield %>
+    </main>
+
+  </body>
+</html>
